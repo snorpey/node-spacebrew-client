@@ -1,5 +1,5 @@
 {
-  "author": "Georg Fischer <snorpey@@gmail.com>",
+  "author": "Georg Fischer <snorpey@gmail.com>",
   "name": "spacebrew-client",
   "description": "Spacebrew Client implementaion for Node (https://github.com/Spacebrew/spacebrew.js)",
   "version": "0.0.3",
