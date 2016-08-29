@@ -74,8 +74,14 @@ Subscribers will listen for information coming from the Spacebrew server that yo
 
 ## Admin Mixin
 
-To use the [Spacebrew Admin Mixin](https://github.com/Spacebrew/spacebrew.js/blob/master/library/sb-admin-0.1.5.js), you can call
+To use the [Spacebrew Admin Mixin](https://github.com/Spacebrew/spacebrew.js/blob/master/library/sb-admin-0.1.5.js), you can call ``Spacebrew.makeAdmin()``. An example
+
+    var Spacebrew = require( 'spacebrew-client' );
     
-    Spacebrew.makeAdmin()
+    var myAdminClient = new Spacebrew.Client();
+    myAdminClient.extend( Spacebrew.makeAdmin() );
+    myAdminClient.name( 'MIGHTY SPACEBREW ADMIN' );
+    myAdminClient.connect();
+
 
 before creating a client.
