@@ -1,11 +1,11 @@
 {
-  "author": "Jeff Crouse <jefftimesten@gmail.com>",
-  "name": "spacebrew",
-  "description": "Spacebrew implementaion for Node (https://github.com/Spacebrew/spacebrew.js)",
+  "author": "Georg Fischer <snorpey@@gmail.com>",
+  "name": "spacebrew-client",
+  "description": "Spacebrew Client implementaion for Node (https://github.com/Spacebrew/spacebrew.js)",
   "version": "0.0.2",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jefftimesten/node-spacebrew"
+    "url": "https://github.com/snorpey/node-spacebrew-client"
   },
   "main": "./lib",
   "dependencies": {
@@ -17,7 +17,6 @@
     "node": "*"
   },
   "readmeFilename": "README.md",
-  "gitHead": "562520984b46cbbd2ab2ff7f5a4e8bbbe501cfba",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
