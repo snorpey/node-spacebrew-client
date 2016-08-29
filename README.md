@@ -17,11 +17,11 @@ This is a spacebrew CLIENT library. To install a Spacebrew server, check out [Sp
 
 The first step is to install the module
 
-	npm install spacebrew
+	npm install spacebrew-client
 
 Then, in your app, create a Spacebrew object
 
-	var Spacebrew = require('spacebrew')
+	var Spacebrew = require('spacebrew-client')
 
 Next, create your Spacebrew client.  
 
@@ -56,8 +56,26 @@ Subscribers will listen for information coming from the Spacebrew server that yo
 		}
 	}
 
+Subscribers will listen for information coming from the Spacebrew server that you specify.  
+
+	sb.addSubscribe("tick", "string");
+	sb.onStringMessage = onStringMessage( name, value ){
+		if(name=="tick") {
+			console.log("Message from server: "+value);
+		}
+	}
+
 
 ##Connect!
 
 	// connect to spacbrew
 	sb.connect();
+
+
+## Admin Mixin
+
+To use the [Spacebrew Admin Mixin](https://github.com/Spacebrew/spacebrew.js/blob/master/library/sb-admin-0.1.5.js), you can call
+    
+    Spacebrew.makeAdmin()
+
+before creating a client.
