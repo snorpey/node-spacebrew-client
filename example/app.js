@@ -1,6 +1,6 @@
 
 
-var Spacebrew = require('spacebrew')
+var Spacebrew = require('spacebrew-client')
 
 
 //
