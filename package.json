@@ -2,7 +2,7 @@
   "author": "Georg Fischer <snorpey@@gmail.com>",
   "name": "spacebrew-client",
   "description": "Spacebrew Client implementaion for Node (https://github.com/Spacebrew/spacebrew.js)",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "repository": {
     "type": "git",
     "url": "https://github.com/snorpey/node-spacebrew-client"
